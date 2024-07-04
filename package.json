@@ -1,0 +1,71 @@
+{
+    "name": "watch-this-sol",
+    "description": "Analyse wallets on HTML to have an easy redirect to SolScan",
+    "version": "0.0.1",
+    "author": "alexcraviotto",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alexcraviotto/watch-this-sol"
+    },
+    "scripts": {
+        "start": "xt-build -e dev -w",
+        "start:firefox": "xt-build -e dev -p firefox -w",
+        "build": "xt-build -e prod",
+        "build:firefox": "xt-build -e prod -p firefox",
+        "clean": "xt-clean",
+        "docs": "xt-docs",
+        "test": "xt-test",
+        "coverage": "nyc --reporter=lcov npm run test",
+        "sync": "xt-sync"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env"
+        ]
+    },
+    "eslintIgnore": [
+        "test/**/*"
+    ],
+    "devDependencies": {
+        "extension-cli": "latest"
+    },
+    "xtdocs": {
+        "source": {
+            "include": [
+                "README.md",
+                "src"
+            ]
+        }
+    },
+    "xtbuild": {
+        "scss_bundles": [
+            {
+              "src": [
+                "./src/styles.css"              
+            ],
+              "name": "styles"
+            }
+        ],
+        "js_bundles": [
+            {
+              "name": "background",
+              "src": "./src/index.js"
+            },
+            {
+              "name": "app",
+              "src": [
+                  "./src/app/**/*.js"
+               ]
+            },
+            {
+                "name": "contentScript",
+                "src": [
+                    "./src/contentScript.js"
+                 ]
+              }
+        ]
+    },
+    "dependencies": {
+        "@solana/web3.js": "^1.94.0"
+    }
+}
