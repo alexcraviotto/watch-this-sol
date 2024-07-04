@@ -1,39 +1,21 @@
-# watch-this-sol
+# 👀 Watch This Sol 
 
-Analyse wallets on HTML to have an easy redirect to SolScan
+## Overview
 
-## Development 
+This extension scans your timeline tweets and replies for solana addresses, if found, a shortcut will be generated so you can quickly analyse them in solscan.
 
-This extension was created with [Extension CLI](https://oss.mobilefirst.me/extension-cli/)!
+![](./assets/gif/how-works.gif)
 
-If you find this software helpful [star](https://github.com/MobileFirstLLC/extension-cli/) or [sponsor](https://github.com/sponsors/MobileFirstLLC) this project.
+## Features
+- Automatically detects Solana addresses in tweets.
+- Appends a button next to the detected address linking to Solscan for detailed account view.
 
 
-### Available Commands
+## Contributing
 
-| Commands | Description |
-| --- | --- |
-| `npm run start` | build extension, watch file changes |
-| `npm run build` | generate release version |
-| `npm run docs` | generate source code docs |
-| `npm run clean` | remove temporary files |
-| `npm run test` | run unit tests |
-| `npm run sync` | update config files |
+Contributions are welcomed and appreciated! If you have any suggestions, find any issues, or want to contribute code, please feel free to:
 
-For CLI instructions see [User Guide &rarr;](https://oss.mobilefirst.me/extension-cli/)
+- Open an issue to discuss potential changes or enhancements.
+- Submit a pull request with improvements.
 
-### Learn More
-
-**Extension Developer guides**
-
-- [Getting started with extension development](https://developer.chrome.com/extensions/getstarted)
-- Manifest configuration: [version 2](https://developer.chrome.com/extensions/manifest) - [version 3](https://developer.chrome.com/docs/extensions/mv3/intro/)
-- [Permissions reference](https://developer.chrome.com/extensions/declare_permissions)
-- [Chrome API reference](https://developer.chrome.com/docs/extensions/reference/)
-
-**Extension Publishing Guides**
-
-- [Publishing for Chrome](https://developer.chrome.com/webstore/publish)
-- [Publishing for Edge](https://docs.microsoft.com/en-us/microsoft-edge/extensions-chromium/publish/publish-extension)
-- [Publishing for Opera addons](https://dev.opera.com/extensions/publishing-guidelines/)
-- [Publishing for Firefox](https://extensionworkshop.com/documentation/publish/submitting-an-add-on/)
+Let's make tracking Solana addresses on Twitter/X easier together!
