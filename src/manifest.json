@@ -1,13 +1,11 @@
 {
     "name": "Watch This Sol",
     "short_name": "Watch This Sol",
-    "description": "Analyse wallets on HTML to have an easy redirect to SolScan",
-    "version": "0.0.1",
-    "version_name": "0.0.1",
+    "description": "Analyse wallets on Twitter/X to have an easy redirect to SolScan",
+    "version": "1.0",
+    "version_name": "1.0",
     "manifest_version": 3,
-    "default_locale": "en",
     "minimum_chrome_version": "88",
-    "permissions": ["activeTab"],
     "icons": {
         "128": "assets/img/128x128.png"
     },

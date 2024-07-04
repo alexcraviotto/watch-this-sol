@@ -1,17 +1,17 @@
-# 👀 Watch This Sol 
 
-## Overview
-
-This extension scans your timeline tweets and replies for solana addresses, if found, a shortcut will be generated so you can quickly analyse them in solscan.
-
-![](./assets/gif/how-works.gif)
-
-## Features
-- Automatically detects Solana addresses in tweets.
-- Appends a button next to the detected address linking to Solscan for detailed account view.
+![](./assets/img/banner.svg)
 
 
-## Contributing
+![](./assets/img/product/wide.png)
+#### This extension scans your timeline tweets and replies for solana addresses, if found, a shortcut will be generated so you can quickly analyse them in solscan
+
+
+## 👀 How works?
+
+![](./assets/img/product/feature-1.png)
+
+
+## 🔨 Contributing
 
 Contributions are welcomed and appreciated! If you have any suggestions, find any issues, or want to contribute code, please feel free to:
 
