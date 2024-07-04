@@ -1,6 +1,5 @@
 
-![](./assets/img/banner.svg)
-
+<img src="./assets/img/banner.svg" width="100%">
 
 ![](./assets/img/product/wide.png)
 #### This extension scans your timeline tweets and replies for solana addresses, if found, a shortcut will be generated so you can quickly analyse them in solscan
